@@ -140,10 +140,18 @@ body {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 425px) {
+    .pic-wrap {
+        height: 250px;
+        .image {
+            height: 100%;
+        }
+    }
+
     .pic-text {
-        top: 6%;
-        font-size: 40px;
+        top: 10%;
+        text-align: center;
+        font-size: 20px;
     }
 }
 /* end of banner */
@@ -180,7 +188,7 @@ body {
     padding: 10px;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 425px) {
     .form-text{
         .h2 {
             margin: 0;
@@ -200,7 +208,7 @@ body {
     
     .contactBox {
         background: rgb(210, 210, 210);
-        width: 400px;
+        width: 350px;
         border-radius: 5px;
     }
 }
@@ -240,3 +248,9 @@ body {
     text-underline-offset: 4px;
 }
 /* end of footer */
+
+@media screen and (max-width: 425px) {
+    .footer {
+        bottom: 0;
+    }
+}
