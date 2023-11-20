@@ -157,16 +157,15 @@ body {
     flex-wrap: wrap;
 
     .card {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 800px;
         border-radius: 5px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.5s;
-        height: 100%;
         filter: brightness(40%);
 
         .card-img {
-            width: 500px;
+            width: 400px;
             height: 500px;
             object-fit: cover;
             border-radius: 5px 5px 0 0;
@@ -203,7 +202,7 @@ body {
 
         .card {
             width: 300px;
-            height: 700px;
+            height: 450px;
             border-radius: 5px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.5s;
@@ -221,7 +220,9 @@ body {
 
                 .h4 {
                     margin-bottom: 0;
+                    padding-bottom: 0;
                     font-size: 20px;
+                    padding: 10px
                 }
 
                 .card-p {
@@ -248,3 +249,38 @@ body {
 }
 
 /* end of rediscover */
+
+/* start of footer */
+.footer-header {
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 46, 40);
+    font-size: larger;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.footer h4 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 30px;
+    font-size: 30px;
+    color: black;
+}
+
+.footer-header a {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.footer-header a:hover {
+    color: rgb(83, 182, 137);
+    transition: 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+/* end of footer */

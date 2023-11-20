@@ -142,6 +142,7 @@ body {
 
 @media (max-width: 600px) {
     .pic-text {
+        top: 6%;
         font-size: 40px;
     }
 }
@@ -179,6 +180,30 @@ body {
     padding: 10px;
 }
 
+@media (max-width: 600px) {
+    .form-text{
+        .h2 {
+            margin: 0;
+            font-size: 40px;
+            width: 400px;
+        }
+
+        .p {
+            padding-top: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .form-text p {
+        font-size: 15px;
+    }
+    
+    .contactBox {
+        background: rgb(210, 210, 210);
+        width: 400px;
+        border-radius: 5px;
+    }
+}
 /* end of contact */
 
 /* start of footer */
